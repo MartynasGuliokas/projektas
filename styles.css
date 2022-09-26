@@ -1,0 +1,362 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+body nav {
+  background-color: #ffe9d0;
+}
+body nav .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95vw;
+  height: 90px;
+  margin: 0 auto;
+}
+body nav .navbar .logo {
+  position: relative;
+  padding: 0 50px;
+}
+body nav .navbar .logo p {
+  font-size: 30px;
+}
+body nav .navbar .logo p sup {
+  font-size: 20px;
+}
+body nav .navbar .logo span {
+  font-size: 35px;
+  position: absolute;
+  right: 11px;
+  top: 36%;
+  color: gray;
+}
+body nav .navbar .nav-links {
+  font-size: 15px;
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  padding-bottom: 10px;
+}
+body nav .navbar a {
+  text-decoration: none;
+  font-family: "Heebo", sans-serif;
+  color: black;
+}
+body nav .navbar li {
+  list-style: none;
+}
+body nav .navbar li .login {
+  font-family: "Heebo", sans-serif;
+  font-size: 17px;
+}
+body section {
+  background-image: url(img/main.jpg);
+  width: 100vw;
+  height: 713px;
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  color: white;
+  align-items: center;
+}
+body section .section-content {
+  position: absolute;
+  margin-left: 100px;
+}
+body section .section-content a {
+  transition: background-color 0.5s ease;
+}
+body section .section-content a:hover {
+  background-color: #60695d;
+  color: white;
+}
+body section .section-content p {
+  font-size: 20px;
+  font-family: "Heebo", sans-serif;
+}
+body section .section-content h1 {
+  font-size: 70px;
+  font-family: "Playfair Display", serif;
+  margin-top: 1px;
+}
+body section .section-content a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-family: "Heebo", sans-serif;
+  border: 1px solid white;
+  height: 51.5px;
+  width: 157.81px;
+  margin-right: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+aside {
+  display: flex;
+  height: 68px;
+  width: 100vw;
+  background-color: #60695D;
+  color: white;
+  font-size: 20px;
+  font-family: "Heebo", sans-serif;
+}
+aside .dailydeal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  margin: 25px;
+}
+
+main .main-cointainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 590px 590px 590px;
+}
+main .main-cointainer h2 {
+  margin-top: 0;
+}
+main .main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main-content a {
+  transition: background-color 0.5s ease;
+}
+main .main-content a:hover {
+  background-color: #60695d;
+  color: white;
+}
+main .content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+main .content h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 70px;
+  margin-bottom: -11px;
+}
+main .content h3 {
+  font-size: 20px;
+  font-family: "Heebo", sans-serif;
+}
+main .content p {
+  font-size: 16px;
+  font-family: "Heebo", sans-serif;
+  margin-bottom: 36px;
+}
+main .content a {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Heebo", sans-serif;
+  border: 1px solid black;
+  color: black;
+  height: 50px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-photo {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photo1 {
+  background-image: url("img/main1.webp");
+}
+
+.photo2 {
+  background-image: url("img/main2.webp");
+}
+
+.photo3 {
+  background-image: url("img/main3.webp");
+}
+
+.info-container {
+  width: 100vw;
+  height: 400px;
+  background-color: #FBF2E8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info-container h2 {
+  font-size: 70px;
+}
+.info-container .info-container-content {
+  display: inline-flex;
+  width: 100%;
+  margin-top: 20px;
+}
+.info-container .info-container-content .divider {
+  height: 100%;
+  width: 2px;
+  background-color: black;
+}
+.info-container .info-container-content .address {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.info-container .info-container-content .address .address-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 230px;
+  margin-left: 70px;
+}
+.info-container .info-container-content .address .address-content p {
+  margin-bottom: 0;
+  font-family: "Heebo", sans-serif;
+}
+.info-container .info-container-content .address .address-content span {
+  font-family: "Playfair Display", serif;
+  font-size: 27px;
+}
+.info-container .info-container-content .openning-hours {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.info-container .info-container-content .openning-hours .opening-hours-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 230px;
+  margin-right: 70px;
+}
+.info-container .info-container-content .openning-hours .opening-hours-content p {
+  margin-bottom: 0;
+  font-family: "Heebo", sans-serif;
+}
+.info-container .info-container-content .openning-hours .opening-hours-content span {
+  font-family: "Playfair Display", serif;
+  font-size: 27px;
+}
+
+.photos {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 320px;
+}
+.photos .footer-photo {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.photos .photo1 {
+  background-image: url("img/f1.jpg");
+}
+.photos .photo2 {
+  background-image: url("img/f2.jpg");
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-around;
+  background-color: #404d3c;
+  color: white;
+  align-items: flex-start;
+  padding: 90px 0;
+}
+.footer-info h1 {
+  font-family: "Playfair Display", serif;
+}
+.footer-info p {
+  font-family: "Heebo", sans-serif;
+}
+.footer-info a {
+  text-decoration: none;
+  color: white;
+}
+.footer-info label {
+  font-family: "Heebo", sans-serif;
+}
+.footer-info .content1 {
+  display: flex;
+  flex-direction: column;
+}
+.footer-info .content1 .email-form {
+  display: flex;
+  flex-direction: column;
+}
+.footer-info .content1 .input-container {
+  display: flex;
+}
+.footer-info .content1 .input-container .input-field {
+  padding: 10px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  transition: background-color 0.5s ease;
+}
+.footer-info .content1 .input-container .input-field:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.footer-info .content1 .input-container .input-button {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  border-left: 0;
+  padding: 10px 15px;
+  transition: background-color 0.5s ease;
+}
+.footer-info .content1 .input-container .input-button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+.footer-info .content2 {
+  display: flex;
+  flex-direction: column;
+}
+.footer-info .content2 a {
+  font-family: "Heebo", sans-serif;
+}
+.footer-info .content2 .gmail {
+  margin-top: -17px;
+}
+.footer-info .content2 h1 {
+  margin-bottom: 18px;
+}
+.footer-info .content2 .address {
+  margin-top: -17px;
+}
+.footer-info .content3 {
+  display: flex;
+  flex-direction: column;
+  font-size: 50px;
+  font-family: "Playfair Display", serif;
+  padding: 20px;
+}
+.footer-info .content3 a {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 680px) {
+  .footer-info {
+    flex-direction: column;
+    align-items: center;
+    padding: 90px;
+  }
+  .footer-info > div {
+    margin-bottom: 30px;
+    width: 230px;
+  }
+  .footer-info .content3 {
+    padding: 0;
+    margin: 0;
+  }
+}/*# sourceMappingURL=styles.css.map */
