@@ -161,26 +161,21 @@ main .content a {
   align-items: center;
   justify-content: center;
 }
-
-.main-photo {
+main .main-photo {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.photo1 {
+main .photo1 {
   background-image: url("img/main1.webp");
 }
-
-.photo2 {
+main .photo2 {
   background-image: url("img/main2.webp");
 }
-
-.photo3 {
+main .photo3 {
   background-image: url("img/main3.webp");
 }
-
-.info-container {
+main .info-container {
   width: 100vw;
   height: 400px;
   background-color: #FBF2E8;
@@ -188,26 +183,26 @@ main .content a {
   flex-direction: column;
   align-items: center;
 }
-.info-container h2 {
+main .info-container h2 {
   font-size: 70px;
 }
-.info-container .info-container-content {
+main .info-container .info-container-content {
   display: inline-flex;
   width: 100%;
   margin-top: 20px;
 }
-.info-container .info-container-content .divider {
+main .info-container .info-container-content .divider {
   height: 100%;
   width: 2px;
   background-color: black;
 }
-.info-container .info-container-content .address {
+main .info-container .info-container-content .address {
   width: 50%;
   display: flex;
   align-items: flex-start;
   justify-content: center;
 }
-.info-container .info-container-content .address .address-content {
+main .info-container .info-container-content .address .address-content {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -215,21 +210,21 @@ main .content a {
   width: 230px;
   margin-left: 70px;
 }
-.info-container .info-container-content .address .address-content p {
+main .info-container .info-container-content .address .address-content p {
   margin-bottom: 0;
   font-family: "Heebo", sans-serif;
 }
-.info-container .info-container-content .address .address-content span {
+main .info-container .info-container-content .address .address-content span {
   font-family: "Playfair Display", serif;
   font-size: 27px;
 }
-.info-container .info-container-content .openning-hours {
+main .info-container .openning-hours {
   width: 50%;
   display: flex;
   align-items: flex-start;
   justify-content: center;
 }
-.info-container .info-container-content .openning-hours .opening-hours-content {
+main .info-container .openning-hours .opening-hours-content {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -237,33 +232,32 @@ main .content a {
   width: 230px;
   margin-right: 70px;
 }
-.info-container .info-container-content .openning-hours .opening-hours-content p {
+main .info-container .openning-hours .opening-hours-content p {
   margin-bottom: 0;
   font-family: "Heebo", sans-serif;
 }
-.info-container .info-container-content .openning-hours .opening-hours-content span {
+main .info-container .openning-hours .opening-hours-content span {
   font-family: "Playfair Display", serif;
   font-size: 27px;
 }
-
-.photos {
+main .photos {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 320px;
 }
-.photos .footer-photo {
+main .photos .footer-photo {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.photos .photo1 {
+main .photos .photo1 {
   background-image: url("img/f1.jpg");
 }
-.photos .photo2 {
+main .photos .photo2 {
   background-image: url("img/f2.jpg");
 }
 
-.footer-info {
+footer .footer-info {
   display: flex;
   justify-content: space-around;
   background-color: #404d3c;
@@ -271,41 +265,41 @@ main .content a {
   align-items: flex-start;
   padding: 90px 0;
 }
-.footer-info h1 {
+footer .footer-info h1 {
   font-family: "Playfair Display", serif;
 }
-.footer-info p {
+footer .footer-info p {
   font-family: "Heebo", sans-serif;
 }
-.footer-info a {
+footer .footer-info a {
   text-decoration: none;
   color: white;
 }
-.footer-info label {
+footer .footer-info label {
   font-family: "Heebo", sans-serif;
 }
-.footer-info .content1 {
+footer .footer-info .content1 {
   display: flex;
   flex-direction: column;
 }
-.footer-info .content1 .email-form {
+footer .footer-info .content1 .email-form {
   display: flex;
   flex-direction: column;
 }
-.footer-info .content1 .input-container {
+footer .footer-info .content1 .input-container {
   display: flex;
 }
-.footer-info .content1 .input-container .input-field {
+footer .footer-info .content1 .input-container .input-field {
   padding: 10px;
   background: transparent;
   border: 1px solid white;
   color: white;
   transition: background-color 0.5s ease;
 }
-.footer-info .content1 .input-container .input-field:hover {
+footer .footer-info .content1 .input-container .input-field:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
-.footer-info .content1 .input-container .input-button {
+footer .footer-info .content1 .input-container .input-button {
   background: transparent;
   border: 1px solid white;
   color: white;
@@ -313,34 +307,34 @@ main .content a {
   padding: 10px 15px;
   transition: background-color 0.5s ease;
 }
-.footer-info .content1 .input-container .input-button:hover {
+footer .footer-info .content1 .input-container .input-button:hover {
   background-color: rgba(255, 255, 255, 0.3);
   cursor: pointer;
 }
-.footer-info .content2 {
+footer .content2 {
   display: flex;
   flex-direction: column;
 }
-.footer-info .content2 a {
+footer .content2 a {
   font-family: "Heebo", sans-serif;
 }
-.footer-info .content2 .gmail {
+footer .content2 .gmail {
   margin-top: -17px;
 }
-.footer-info .content2 h1 {
+footer .content2 h1 {
   margin-bottom: 18px;
 }
-.footer-info .content2 .address {
+footer .content2 .address {
   margin-top: -17px;
 }
-.footer-info .content3 {
+footer .content3 {
   display: flex;
   flex-direction: column;
   font-size: 50px;
   font-family: "Playfair Display", serif;
   padding: 20px;
 }
-.footer-info .content3 a {
+footer .content3 a {
   text-decoration: none;
   color: white;
 }
